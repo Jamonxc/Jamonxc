@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     srand(time(0));
     int NumSec = rand() % 100 + 1;
-    int intento;
+    int intento = 0;
     cout << "Adivina el numero del 1 - 100" << endl;
     
     while (intento != NumSec) {
